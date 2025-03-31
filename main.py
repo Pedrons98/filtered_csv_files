@@ -17,5 +17,5 @@ if uploaded_csv:
 
     st.download_button(label = "Descarga csv filtrado",
                     data  = bytes_df, 
-                    file_name="filtered",
+                    file_name="filtered.csv",
                     mime="text/csv")
